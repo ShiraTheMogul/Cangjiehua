@@ -92,5 +92,8 @@ I created these tools for self-study of Cangjie, having noticed that it is very 
 
 Cangjie itself is only really used in Hong Kong nowadays, and is considered quite difficult to learn. It encourages recognition of characters and has you write them based on structure; this way, you do not need to learn the phonology of any character to write it. This makes it ideal for Cantonese and other Chinese topolects, though many are moving to their own rime inputs; e.g. Cantonese's Jyutping input, Shanghainese's [Yahwe-Rime-Zaonhe](https://github.com/wugniu/rime-yahwe_zaonhe), etc. Regardless, it is still used and useful, and I personally think it is incredibly handy for Literary Chinese in particular given its unspoken nature. Thus came this repository.
 
+# Acknowledgements
+ChatGPT was used to assist with the development of this code and its debugging. 
+
 ## Licence
 As a supporter of the [Free Software Movement](https://www.fsf.org/about/) and its values, this is published under a [GNU General Public Licence v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html). Contributions are encouraged. 
