@@ -87,6 +87,18 @@ Then for output modes...
 abc / hi
 ```
 
+## Unihan Cangjie Pinger
+Input a `.txt` or `.csv` list of characters and get their Cangjie codes according to the Unihan database. It includes features such as choosing a column, the `k` part of Unihan data, and can skip empty cells (after 3, it stops automatically). 
+
+It will produce a local SQLite cache of the Unihan database of around 12 KB. 
+
+# Usage
+
+For example...
+```bash
+python append_unihan_cangjie_csv.py --in-csv zi.csv --out-csv zi_with_cangjie.csv --source-col Hanzi --out-col kCangjie --verbose
+```
+
 # About this Repository
 I created these tools for self-study of Cangjie, having noticed that it is very undersupported in the main Chinese learning app I use (Pleco). I decided that what I did was decent enough to release. I am currently learning Literary Chinese and found that it was a bit awkward using Pinyin to write it; not only are the common characters often buried in a fleet of common Mandarin ones, it's also not phonetically neutral! Japanese, Korean, and Vietnamese used this language. 
 
